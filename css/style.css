@@ -27,7 +27,7 @@ letter-spacing: 0.03em;
 
 .logo{
 color: #000000;
-font-family: 'Raleway' sans-serif;  
+font-family: 'Raleway', sans-serif;  
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
@@ -36,7 +36,7 @@ text-decoration: none;
 
 .logo-color{
 color: var(--accent-color);
-font-family: 'Raleway'sans-serif;
+font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
@@ -76,6 +76,20 @@ color: var(--accent-color);
 }
 
 /* ГЕРОЙ */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .hero{
 background-color: var(--secondery-bgc-black);
@@ -184,7 +198,7 @@ background-color: var(--secondery-bgc-black);
 
 .logo-footer{
 color: var(--primery-white-color);
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
