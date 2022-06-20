@@ -16,8 +16,6 @@ list-style: none;}
 background-color: var(--primery-white-color);
 color: var(--primary-text-color);
 font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
@@ -128,6 +126,7 @@ background-color: #188CE8;
 /* Особенности*/
 .features-list{
 color:var(--title-text-color);
+font-size: 14px;
 font-weight: 700;
 text-transform: uppercase;
 }
@@ -221,6 +220,12 @@ cursor: pointer;
 .button-portfolio:hover{
 color: var(--primery-white-color);
 background-color: var(--accent-color);
+}
+
+.button-portfolio.active{
+background-color: var(--accent-color);
+color: var(--primery-white-color);
+
 }
 
 .works {
