@@ -12,7 +12,7 @@
 .list{
 list-style: none;}
 
-.body{
+body{
 background-color: var(--primery-white-color);
 color: var(--primary-text-color);
 font-family: 'Roboto';
